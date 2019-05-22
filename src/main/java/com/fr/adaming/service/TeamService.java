@@ -19,7 +19,7 @@ public class TeamService implements ITeamService {
 
 	@Override
 	public Team create(Team team) {
-
+//Souci sur cette page
 		if (team != null && team.getId() != null || team != null && team.getId() == 0) {
 			if (team.getNom() == null) {
 				log.info("TEAM CREATE : TeamName not filled in");
